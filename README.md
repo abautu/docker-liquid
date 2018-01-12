@@ -7,13 +7,13 @@ This is the Dockerfile for building a docker image for Liquid Quantum Computer S
 
 Install using:
 
-  docker pull abautu/liquid
+    docker pull abautu/liquid
 
 Run using:
 
-  docker run --rm abautu/liquid ...your.program.here...
+    docker run --rm abautu/liquid ...your.program.here...
   
 For example, after install test it using:
 
-  docker run --rm abautu/liquid "__show(It works)"
-  docker run --rm abautu/liquid "__Teleport()"
+    docker run --rm abautu/liquid "__show(It works)"
+    docker run --rm abautu/liquid "__Teleport()"
